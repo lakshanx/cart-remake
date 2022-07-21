@@ -1,0 +1,510 @@
+﻿
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="556" height="1696" shape-rendering="optimizeSpeed">
+                
+            <g>
+                <rect x="50" y="80" width="180.4" height="30" style="fill:#fff; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="55" y1="80" x2="55" y2="110" style="fill:#fff; stroke:#444; stroke-width:1"></line>
+                <line x1="225.4" y1="80" x2="225.4" y2="110" style="fill:#fff; stroke:#444; stroke-width:1"></line>
+             
+                <title>import from'react'</title>
+            <text x="70" y="100" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="70" y="100">import from'react'</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="87" y="128.5" width="69" height="30" rx="2" ry="2" style="fill:#81d4fa; stroke:#444; stroke-width:1"></rect>
+                   <title>React</title>
+            <text x="102" y="148.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="148.5">React</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="50" y="192" width="219.4" height="30" style="fill:#fff; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="55" y1="192" x2="55" y2="222" style="fill:#fff; stroke:#444; stroke-width:1"></line>
+                <line x1="264.4" y1="192" x2="264.4" y2="222" style="fill:#fff; stroke:#444; stroke-width:1"></line>
+             
+                <title>import from'prop-types'</title>
+            <text x="70" y="212" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="70" y="212">import from'prop-types'</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="87" y="240.5" width="100.2" height="30" rx="2" ry="2" style="fill:#81d4fa; stroke:#444; stroke-width:1"></rect>
+                   <title>PropTypes</title>
+            <text x="102" y="260.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="260.5">PropTypes</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="50" y="304" width="219.4" height="30" style="fill:#fff; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="55" y1="304" x2="55" y2="334" style="fill:#fff; stroke:#444; stroke-width:1"></line>
+                <line x1="264.4" y1="304" x2="264.4" y2="334" style="fill:#fff; stroke:#444; stroke-width:1"></line>
+             
+                <title>import from'~mod/utils'</title>
+            <text x="70" y="324" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="70" y="324">import from'~mod/utils'</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="87" y="352.5" width="115.8" height="30" rx="2" ry="2" style="fill:#81d4fa; stroke:#444; stroke-width:1"></rect>
+                   <title>formatMoney</title>
+            <text x="102" y="372.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="372.5">formatMoney</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="50" y="416" width="284" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="60" y1="416" x2="60" y2="446" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="324" y1="416" x2="324" y2="446" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>CartDiscountMeter = (props) =&gt;</title>
+            <text x="75" y="436" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="75" y="436">CartDiscountMeter = (props) =&gt;</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="87" y="464.5" width="178.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const {...} = props</title>
+            <text x="102" y="484.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="484.5">const {...} = props</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="124" y="513" width="76.8" height="30" rx="2" ry="2" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>target</title>
+            <text x="139" y="533" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="533">target</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="124" y="561.5" width="84.6" height="30" rx="2" ry="2" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>current</title>
+            <text x="139" y="581.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="581.5">current</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="124" y="610" width="123.6" height="30" rx="2" ry="2" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>progressText</title>
+            <text x="139" y="630" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="630">progressText</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="658.5" width="295.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const remaining = target - current</title>
+            <text x="102" y="678.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="678.5">const remaining = target - current</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="707" width="162.6" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const progress = </title>
+            <text x="102" y="727" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="727">const progress = </tspan>
+            </text>
+                   
+                   
+                </g><g>
+            <rect x="154" y="770.5" width="184.8" height="30" rx="3" ry="3" style="fill:#ce93d8; stroke:#444; stroke-width:1"></rect>                
+            <polygon points="124,785.5 154,755.5 184,785.5 154,815.5" style="fill:#ce93d8; stroke:#444; stroke-width:1"></polygon>
+            <title>(remaining &lt;= 0)</title>
+            <text x="199" y="790.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="199" y="790.5">(remaining &lt;= 0)</tspan>
+            </text>
+            
+            <text x="150.1" y="790.5" font-family="monospace" font-size="13" fill="#222">?</text> <text x="161.8" y="817.45" font-family="monospace" font-size="13" fill="#222">+</text> 
+        </g>
+                <g>
+                   <rect x="174" y="825.5" width="53.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>100</title>
+            <text x="189" y="845.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="189" y="845.5">100</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="875.5" width="318.59999999999997" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const amount = formatMoney(remaining)</title>
+            <text x="102" y="895.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="895.5">const amount = formatMoney(remaining)</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="924" width="131.39999999999998" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const text = </title>
+            <text x="102" y="944" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="944">const text = </tspan>
+            </text>
+                   
+                   
+                </g><g>
+            <rect x="154" y="987.5" width="184.8" height="30" rx="3" ry="3" style="fill:#ce93d8; stroke:#444; stroke-width:1"></rect>                
+            <polygon points="124,1002.5 154,972.5 184,1002.5 154,1032.5" style="fill:#ce93d8; stroke:#444; stroke-width:1"></polygon>
+            <title>(remaining &lt;= 0)</title>
+            <text x="199" y="1007.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="199" y="1007.5">(remaining &lt;= 0)</tspan>
+            </text>
+            
+            <text x="150.1" y="1007.5" font-family="monospace" font-size="13" fill="#222">?</text> <text x="161.8" y="1034.45" font-family="monospace" font-size="13" fill="#222">+</text> 
+        </g>
+                <g>
+                   <rect x="174" y="1042.5" width="123.6" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>progressText</title>
+            <text x="189" y="1062.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="189" y="1062.5">progressText</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="87" y="1092.5" width="381" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                
+                <line x1="468" y1="1102.5" x2="473" y2="1102.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                
+                <line x1="468" y1="1112.5" x2="473" y2="1112.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+
+                <path d="M473, 1096.5 L489, 1107.5 L473, 1118.5 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+                             
+                <title>return &lt;&gt;
+			&lt;p className="mb-1"&gt;{text}&lt;/p&gt;
+			&lt;div className="progress mb-3"&gt;
+				&lt;div className="progress-bar" style={{
+      width: `${progress}%`
+    }} role="progressbar" aria-label="progress" aria-valuenow={progress} aria-valuemin="0" aria-valuemax="100" /&gt;
+			&lt;/div&gt;
+		&lt;/&gt;</title>
+            <text x="102" y="1112.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="1112.5">return &lt;&gt;
+			&lt;p className="mb-1"&gt;{text}&lt;/p&gt;
+			&lt;di...</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="124" y="1141" width="53.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>{*}</title>
+            <text x="139" y="1161" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="1161">{*}</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="161" y="1189.5" width="193.79999999999998" height="30" rx="2" ry="2" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>width: `${progress}%`</title>
+            <text x="176" y="1209.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="176" y="1209.5">width: `${progress}%`</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="1238" width="287.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>CartDiscountMeter.propTypes = {*}</title>
+            <text x="65" y="1258" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="1258">CartDiscountMeter.propTypes = {*}</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="1286.5" width="225" height="30" rx="2" ry="2" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>current: PropTypes.number</title>
+            <text x="102" y="1306.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="1306.5">current: PropTypes.number</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="1335" width="217.2" height="30" rx="2" ry="2" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>target: PropTypes.number</title>
+            <text x="102" y="1355" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="1355">target: PropTypes.number</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="1383.5" width="264" height="30" rx="2" ry="2" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>progressText: PropTypes.string</title>
+            <text x="102" y="1403.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="1403.5">progressText: PropTypes.string</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="1432" width="310.8" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>CartDiscountMeter.defaultProps = {*}</title>
+            <text x="65" y="1452" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="1452">CartDiscountMeter.defaultProps = {*}</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="1480.5" width="108" height="30" rx="2" ry="2" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>current: 0</title>
+            <text x="102" y="1500.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="1500.5">current: 0</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="1529" width="100.2" height="30" rx="2" ry="2" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>target: 0</title>
+            <text x="102" y="1549" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="1549">target: 0</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="1577.5" width="443.4" height="30" rx="2" ry="2" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>progressText: tSettings.cartShippingMeter.inProgressText</title>
+            <text x="102" y="1597.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="1597.5">progressText: tSettings.cartShippingMeter.inProgre...</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="50" y="1641" width="287.4" height="30" rx="3" ry="3" style="fill:#81d4fa; stroke:#444; stroke-width:1"></rect>
+                
+                <line x1="337.4" y1="1651" x2="342.4" y2="1651" style="fill:#fff; stroke:#444; stroke-width:1"></line>
+                
+                <line x1="337.4" y1="1661" x2="342.4" y2="1661" style="fill:#fff; stroke:#444; stroke-width:1"></line>
+
+                <path d="M342.4, 1642 L362.4, 1656 L342.4, 1670 Z" fill="#fff" stroke="#444" stroke-width="1"></path>
+                             
+                <title>export default  CartDiscountMeter</title>
+            <text x="65" y="1661" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="1661">export default  CartDiscountMeter</tspan>
+            </text>
+                
+            </g>
+            <g>
+               <rect x="25" y="13.75" width="216.6" height="24" style="fill:#fff59d; stroke:#444; stroke-width:1"></rect>
+               <circle cx="25" cy="25" r="15" style="fill:#fff59d; stroke:#444; stroke-width:1"></circle>
+               <title>Program: source module</title>
+            <text x="55" y="30" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="55" y="30">Program: source module</tspan>
+            </text>
+            </g>
+            <g>
+               <path d="M25, 40 L25 91 Q25 95
+                29 95
+                L42 95 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 92 L50, 95 L42, 98 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 110 L68.5 139.5 Q68.5 143.5
+                72.5 143.5
+                L87 143.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+            </g>
+            <g>
+               <path d="M25, 40 L25 203 Q25 207
+                29 207
+                L42 207 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 204 L50, 207 L42, 210 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 222 L68.5 251.5 Q68.5 255.5
+                72.5 255.5
+                L87 255.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+            </g>
+            <g>
+               <path d="M25, 40 L25 315 Q25 319
+                29 319
+                L42 319 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 316 L50, 319 L42, 322 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 334 L68.5 363.5 Q68.5 367.5
+                72.5 367.5
+                L87 367.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+            </g>
+            <g>
+               <path d="M25, 40 L25 427 Q25 431
+                29 431
+                L42 431 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 428 L50, 431 L42, 434 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 446 L68.5 475.5 Q68.5 479.5
+                72.5 479.5
+                L79 479.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 476.5 L87, 479.5 L79, 482.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 494.5 L105.5 524 Q105.5 528
+                109.5 528
+                L124 528 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+            </g>
+            <g>
+               <path d="M105.5, 494.5 L105.5 572.5 Q105.5 576.5
+                109.5 576.5
+                L124 576.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+            </g>
+            <g>
+               <path d="M105.5, 494.5 L105.5 621 Q105.5 625
+                109.5 625
+                L124 625 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+            </g>
+            <g>
+               <path d="M68.5, 446 L68.5 669.5 Q68.5 673.5
+                72.5 673.5
+                L79 673.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 670.5 L87, 673.5 L79, 676.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 446 L68.5 718 Q68.5 722
+                72.5 722
+                L79 722 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 719 L87, 722 L79, 725 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 737 L105.5 781.5 Q105.5 785.5
+                109.5 785.5
+                L116 785.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 782.5 L124, 785.5 L116, 788.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M154, 815.5 L154 836.5 Q154 840.5
+                158 840.5
+                L166 840.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M166, 837.5 L174, 840.5 L166, 843.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 446 L68.5 886.5 Q68.5 890.5
+                72.5 890.5
+                L79 890.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 887.5 L87, 890.5 L79, 893.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 446 L68.5 935 Q68.5 939
+                72.5 939
+                L79 939 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 936 L87, 939 L79, 942 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 954 L105.5 998.5 Q105.5 1002.5
+                109.5 1002.5
+                L116 1002.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 999.5 L124, 1002.5 L116, 1005.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M154, 1032.5 L154 1053.5 Q154 1057.5
+                158 1057.5
+                L166 1057.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M166, 1054.5 L174, 1057.5 L166, 1060.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 446 L68.5 1103.5 Q68.5 1107.5
+                72.5 1107.5
+                L79 1107.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 1104.5 L87, 1107.5 L79, 1110.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 1122.5 L105.5 1152 Q105.5 1156
+                109.5 1156
+                L116 1156 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 1153 L124, 1156 L116, 1159 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M142.5, 1171 L142.5 1200.5 Q142.5 1204.5
+                146.5 1204.5
+                L161 1204.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+            </g>
+            <g>
+               <path d="M25, 40 L25 1249 Q25 1253
+                29 1253
+                L42 1253 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 1250 L50, 1253 L42, 1256 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 1268 L68.5 1297.5 Q68.5 1301.5
+                72.5 1301.5
+                L87 1301.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+            </g>
+            <g>
+               <path d="M68.5, 1268 L68.5 1346 Q68.5 1350
+                72.5 1350
+                L87 1350 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+            </g>
+            <g>
+               <path d="M68.5, 1268 L68.5 1394.5 Q68.5 1398.5
+                72.5 1398.5
+                L87 1398.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+            </g>
+            <g>
+               <path d="M25, 40 L25 1443 Q25 1447
+                29 1447
+                L42 1447 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 1444 L50, 1447 L42, 1450 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 1462 L68.5 1491.5 Q68.5 1495.5
+                72.5 1495.5
+                L87 1495.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+            </g>
+            <g>
+               <path d="M68.5, 1462 L68.5 1540 Q68.5 1544
+                72.5 1544
+                L87 1544 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+            </g>
+            <g>
+               <path d="M68.5, 1462 L68.5 1588.5 Q68.5 1592.5
+                72.5 1592.5
+                L87 1592.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+            </g>
+            <g>
+               <path d="M25, 40 L25 1652 Q25 1656
+                29 1656
+                L42 1656 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 1653 L50, 1656 L42, 1659 Z" fill="#333"></path>
+            </g>
+            </svg>
