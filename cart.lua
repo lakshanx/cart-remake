@@ -86,6 +86,11 @@ Cart (Drawer)
 ------------ onChangeQuantity (func)
 ------------ onRemoveItem (func)
 
+............ STATE  
+------------ editingVariant (bool)
+------------ inventory (str?)
+------------ isAccordionOpen (bool)
+
 ............ METHODS  
 ------------ onSelectVariant ()
 ------------ onRemoveItem ()
@@ -122,6 +127,11 @@ Cart (Drawer)
 ------------ isLastStock (bool)
 ------------ isPdp (bool)
 
+............ STATE  
+------------ prevQuantity(number?)
+------------ quantity(number?)
+------------ lastStock(bool)
+
 ............ METHODS  
 ------------ onAddQuantity ()
 ------------ onSubtractQuantity ()
@@ -148,6 +158,9 @@ Cart (Drawer)
 ------------ loading (bool)
 ------------ processingId (number)
 
+............ STATE
+------------ showScroll (bool)
+
 ............ METHODS  
 ------------ onWindowResize ()
 ------------ scroll ()
@@ -169,6 +182,12 @@ Cart (Drawer)
 ------------ onApply (func)
 ------------ onRemove (func)
 
+............ STATE
+------------ showForm (bool)
+------------ code ('')
+------------ prevCode ('')
+------------ error ('')
+
 ............ METHODS  
 ------------ onToggleForm ()
 ------------ onTextChange ()
@@ -187,6 +206,9 @@ Cart (Drawer)
 ------------ upsell (array)
 ------------ onAddUpsell (func)
 
+............ STATE
+------------ isLoading (bool)
+
 ............ METHODS  
 ------------ handleClick ()
 
@@ -202,6 +224,14 @@ Cart (Drawer)
 ............ PROPS  
 ------------ injectCss ()
 
+............ STATE
+------------ totalPrice (number?)
+------------ afterpay (?)
+------------ klarna (?)
+------------ klarna_installment (?)
+
+............ METHODS  
+------------ injectCss ()
 
 
 #NOTES:
