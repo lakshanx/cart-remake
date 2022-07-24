@@ -14,26 +14,27 @@ Cart (Drawer)
 ------------ CartRecentProducts from '~comp/cart-recent-products';
 ------------ snCart from '~mod/sn-cart';
 ------------ { getShippingPrice } from '~mod/shipping';
------------- { isFreeItem, isItemHasProp, isSameText, intersectTwo, formatMoney } from '~mod/utils';
+------------ { isFreeItem, isItemHasProp, isSameText, intersectTwo, isCodeAllowed, getCookie } from '~mod/utils';
 ------------ SvgClose from '~svg/close.svg';
 
 ............ STATE   
------------- cart
------------- loadingInit
------------- isLastStockKey
------------- itemCount
------------- subtotalPrice
------------- totalPrice
------------- comparePriceDiff
------------- loadingDiscount
------------- discountData
------------- manualGwp
------------- loadingManualGwp
------------- upsellData
------------- shippingData
------------- shippingMeter
------------- discountMeter
------------- recentProducts
+------------ isLastStockKey (string)
+------------ cart (obj)
+------------ loadingInit (bool)
+------------ itemCount (number)
+------------ manualGwpCount (number)
+------------ totalPrice (number)
+------------ upsellData (obj)
+------------ discountData (obj)
+------------ loadingDiscount (bool)
+------------ recentProducts (array)
+------------ savedDiscountOnEmptyCart (string)
+------------ manualGwp (obj)
+------------ loadingManualGwp (obj)
+------------ shippingData (obj)
+------------ shippingMeter (obj)
+------------ discountMeter (obj)
+------------ combineDiscount (obj)
 
 ............ METHODS  
 ------------ setCartCountEl()
@@ -41,7 +42,9 @@ Cart (Drawer)
 ------------ setCartData () -- ASYNC
 ------------ getItemModels () -- ASYNC
 ------------ getVariantOptions () -- ASYNC
+------------ setSavedDiscount () -- ASYNC
 ------------ setRecentProducts () -- ASYNC
+------------ getUpsell () -- ASYNC
 ------------ getDiscountErrorExtra ()
 ------------ getDiscountDataDisplay ()
 ------------ onChangeQuantity ()
@@ -58,9 +61,6 @@ Cart (Drawer)
 
 
 -- CartShippingMeter
-............ IMPORTS 
------------- { formatMoney } from '~mod/utils';
-
 ............ PROPS   
 ------------ current (number)
 ------------ target (number)
@@ -72,12 +72,10 @@ Cart (Drawer)
 ............ IMPORTS 
 ------------ ConditionWrapper from '~comp/condition-wrapper';
 ------------ QuantityBox from '~comp/quantity-box';
------------- snCart from '~mod/sn-cart';
 ------------ {formatMoney,kebabCase} from '~mod/utils';
 ------------ SvgTrash from '~svg/trash.svg';
 ------------ SvgRecurring from '~svg/recurring.svg';
 ------------ SvgChevronDown from '~svg/chevron-down.svg';
------------- VariantQuantity from '~mod/variant-quantity.json';
 
 ............ PROPS  
 ------------ item (object)
@@ -85,17 +83,17 @@ Cart (Drawer)
 ------------ onChangeVariant (func)
 ------------ onChangeQuantity (func)
 ------------ onRemoveItem (func)
+------------ productId (number)
+------------ productStock (number)
 
 ............ STATE  
 ------------ editingVariant (bool)
------------- inventory (str?)
 ------------ isAccordionOpen (bool)
 
 ............ METHODS  
 ------------ onSelectVariant ()
 ------------ onRemoveItem ()
------------- onChangeVariant ()
------------- onAccordionOpen ()
+------------ variantSubtitle ()
 ------------ onAccordionOpen ()
 
 
@@ -128,8 +126,8 @@ Cart (Drawer)
 ------------ isPdp (bool)
 
 ............ STATE  
------------- prevQuantity(number?)
------------- quantity(number?)
+------------ prevQuantity(number)
+------------ quantity(number)
 ------------ lastStock(bool)
 
 ............ METHODS  
@@ -148,7 +146,6 @@ Cart (Drawer)
 ------------ SvgChevronNext from '~svg/chevron-next.svg';
 
 ............ PROPS  
------------- showScroll (bool)
 ------------ title (string)
 ------------ maxSelected (number)
 ------------ selectedKey (array)
@@ -164,6 +161,7 @@ Cart (Drawer)
 ............ METHODS  
 ------------ onWindowResize ()
 ------------ scroll ()
+------------ markText ()
 
 
 
@@ -174,6 +172,7 @@ Cart (Drawer)
 
 ............ PROPS  
 ------------ isApplied (bool)
+------------ isEmptyCart (bool)
 ------------ code (string)
 ------------ isAutoDiscount (bool)
 ------------ loading (bool)
@@ -184,9 +183,9 @@ Cart (Drawer)
 
 ............ STATE
 ------------ showForm (bool)
------------- code ('')
------------- prevCode ('')
------------- error ('')
+------------ code (string)
+------------ prevCode (string)
+------------ error (string)
 
 ............ METHODS  
 ------------ onToggleForm ()
@@ -220,15 +219,15 @@ Cart (Drawer)
 ------------ SvgDelivery from '~svg/fast-delivery.svg';
 ------------ SvgAwards from '~svg/winner-award.svg';
 ------------ SvgMoneyback from '~svg/moneyback.svg';
+------------ SvgMoneybackPounds from '~svg/moneyback-pounds.svg';
+------------ SvgMoneybackEur from '~svg/moneyback-eur.svg';
 
 ............ PROPS  
------------- injectCss ()
+------------ totalPrice (number)
 
 ............ STATE
 ------------ totalPrice (number?)
------------- afterpay (?)
------------- klarna (?)
------------- klarna_installment (?)
+------------ loading (bool)
 
 ............ METHODS  
 ------------ injectCss ()
