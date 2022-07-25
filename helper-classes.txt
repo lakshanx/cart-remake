@@ -1,0 +1,85 @@
+Modules/sn-cart.js
+............ IMPORTS 
+------------ bindAllMethods,
+------------ ajaxPromise,
+------------ isItemIdInKey,
+------------ getCookie,
+------------ setCookie,
+------------ isItemHasProp,
+------------ isCodeAllowed, } from '~mod/utils';
+------------ { discounts } from '~mod/discounts-v2';
+
+............ METHODS  
+------------ enqueue()
+------------ dequeue()
+------------ setTokenAttributes()
+------------ setTokenAttributes()
+------------ removeItem()
+------------ updateItemQuantities()
+------------ addItem()
+------------ changeQuantity()
+------------ replaceItem()
+------------ getProductInfo()
+------------ getVariantInProducts()
+------------ getItem()
+------------ getManualGwp() ASYNC
+------------ toggleManualGwp() ASYNC
+------------ removeDiscountCode()
+------------ applyDiscountCode()
+------------ checkAppliedDiscount()
+------------ checkTierLevel() ASYNC
+------------ recordRecentlyViewed()
+
+
+
+Modules/sn-checkout.js
+............ IMPORTS 
+------------ { getShippingPrice } from '~mod/shipping';
+------------ { discounts } from '~mod/discounts-v2';
+------------ snCart from '~mod/sn-cart';
+------------ {
+	formatMoney,
+	kebabCase,
+	isSameText,
+	variantStyleDisplay,
+	setCookie,
+	getCookie,
+	removeCookie,
+	ajaxPromise,
+	addXMLRequestCallback,
+	isCodeAllowed,
+    } from '~mod/utils';
+------------ { injectSmsbumpCheckbox } from '~mod/checkout-smsbump';
+------------ { injectPersonalIdField } from '~mod/checkout-personal-id';
+------------  '~mod/zendesk-embeddable';
+------------  '~mod/zendesk-locale';
+------------  '~mod/zendesk-zopim';
+
+............ METHODS  
+------------  init
+------------  checkCartToken
+------------  processURL
+------------  clearDiscountForm
+------------  setDiscountError
+------------  removeDiscountError
+------------  setDiscountFormLoading
+------------  handleRejectedDiscount
+------------  addDiscountTag
+------------  clearDiscountTags
+------------  addReductionCode
+------------  addPostListener
+------------  applyDiscountData
+------------  checkAppliedDiscount
+------------  processDiscountCode
+------------  cartLinkedToCheckout
+------------  checkoutStats
+------------  checkPaymentAlert
+------------  updatePaymentForm
+------------  rebuildCart
+------------  processCheckoutData (ASYNC)
+------------  addVariantSwatch
+------------  createSubtotalRow
+------------  createSubtotalRowMobile
+------------  createDiscountRow
+------------  createBundleDiscountRow
+------------  calculateShipping (ASYNC)
